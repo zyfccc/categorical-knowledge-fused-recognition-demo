@@ -55,11 +55,23 @@ python ckfr_train_demo.py --alpha 20 --ell 1.2 --epochs 30 --lr 1e-5
 
 Original sample images (first row) and Class Activation Maps (GradCAMs) produced from baseline (second row) and CKFR method (third rows):
 
-<img src="https://private-user-images.githubusercontent.com/5927085/418439074-9b2d8adc-5ea4-4d75-ae08-354c8b72b42d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA5ODA0NzAsIm5iZiI6MTc0MDk4MDE3MCwicGF0aCI6Ii81OTI3MDg1LzQxODQzOTA3NC05YjJkOGFkYy01ZWE0LTRkNzUtYWUwOC0zNTRjOGI3MmI0MmQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDNUMDUzNjEwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWRkYjE4MWI5NWRkYWMyYzNjOWJhNzE2MjgwMGU1NzhhMThmZTc0ZTcxMmE0YTliZGQzN2U4NDg2NDU4ZDllMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.Ev9JrHE32DMzawt3pH9OEG70-AuTeMlJ_jX0nyehOCY">
+<img src="https://private-user-images.githubusercontent.com/5927085/418439074-9b2d8adc-5ea4-4d75-ae08-354c8b72b42d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDU1NjAwMzQsIm5iZiI6MTc0NTU1OTczNCwicGF0aCI6Ii81OTI3MDg1LzQxODQzOTA3NC05YjJkOGFkYy01ZWE0LTRkNzUtYWUwOC0zNTRjOGI3MmI0MmQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjVUMDU0MjE0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTY2ZGY0MjdkN2Y0N2ZmY2M1NmQwYjFjYjJjYzMyY2ExNDA5MDliNGJjODBjY2IwZWE2OWVhMTE4YmNmNjE3NCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.Im2sJIfZMtX2T8d1sIEOuFS1OgEuhFmwAXdOp7kMrdE">
 
 Compared to the baseline in the CAM plots, CKFR enhanced object identification and localization capacities as well as the reasoning aspect of the recognition.
 
 
-## Pre-print
+## Paper
 
-Here is the [link](https://arxiv.org/abs/2407.20600) to the pre-print paper.
+Here is the [link](https://ieeexplore.ieee.org/document/10959394) to the paper.
+
+And the paper can be cited as follow:
+
+```
+@inproceedings{ckfr2024,
+  author={Zhao, Yunfeng and Zhou, Huiyu and Wu, Fei and Wu, Xifeng},
+  booktitle={2024 IEEE 8th International Conference on Vision, Image and Signal Processing (ICVISP)}, 
+  title={Categorical Knowledge Fused Recognition: Fusing Hierarchical Knowledge with Image Classification Through Aligning and Deep Metric Learning}, 
+  year={2024},
+  pages={1-8}
+}
+```
